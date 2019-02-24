@@ -8,6 +8,11 @@ El archivo *requeriments.txt* tiene todos los requerimientos de Python para ejec
 
 El proyecto require un archivo *.env* que sirve para proporcionar la configuración del productor y consumidor. Un ejemplo se encuentra en el archivo ".env.example".
 
+Para instalar los módulos necesarios se ejecuta la siguiente instrucción:
+```bash
+pip -r requeriments.txt
+```
+
 ## Producir mensajes
 Para producir mensajes se utliza el siguiente comando:
 ```bash
